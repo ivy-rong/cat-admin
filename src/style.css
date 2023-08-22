@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background-color: var(--n-color);
+}
