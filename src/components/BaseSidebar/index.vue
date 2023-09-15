@@ -1,3 +1,3 @@
 <template>
-  <div>Sidebar</div>
+  <div></div>
 </template>
