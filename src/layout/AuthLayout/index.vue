@@ -6,6 +6,8 @@ import {
   NLayoutContent,
   NLayoutFooter
 } from 'naive-ui'
+import { useSidebarStore } from '@/store'
+const sidebarStore = useSidebarStore()
 </script>
 
 <template>
@@ -19,8 +21,8 @@ import {
       collapse-mode="width"
       :collapsed-width="64"
       show-trigger
-      @collapse="collapsed = true"
-      @expand="collapsed = false"
+      @collapse="sidebarStore.changeSidebarCollapse(true)"
+      @expand="sidebarStore.changeSidebarCollapse(false)"
     >
       <BaseSidebar />
     </NLayoutSider>

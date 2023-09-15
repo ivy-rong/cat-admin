@@ -1,1 +1,2 @@
-export * from './theme/index'
+export * from './theme'
+export * from './sidebar'

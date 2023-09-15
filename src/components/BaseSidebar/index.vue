@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <NSpace vertical> </NSpace>
 </template>
